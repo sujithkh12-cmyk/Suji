@@ -4,7 +4,7 @@ import 'dotenv/config'
 import connectDb from './configaretion/connectDb.js'
 import { clerkMiddleware } from '@clerk/express'
 import { serve } from "inngest/express";
-import { inngest, functions } from "./inngest/Index.js"
+import { inngest, functions } from "./Inngest/Index.js"
 
 const app = express()
 const port = process.env.PORT || 3000
